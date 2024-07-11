@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body {
+            background-image: url(Images/bg.png);
+            object-fit: cover;
+            background-repeat: no-repeat;
+            background-color: rgb(229, 245, 14);
+        }
+
+        form {
+            margin-left: 950px;
+            margin-top: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <form>
+            <h2>Register for the Bike Ride Event</h2>
+
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name"><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="text" id="email"><br><br>
+
+            <label for="mobile number">Mobile Number</label><br>
+            <input type="text" id="mobile number"><br><br>
+
+            <label for="ride distance">Preferred Ride Distance:</label><br>
+            <select name="ride distance" id="ride distance">
+                <option value="select">Select</option>
+                <option value="50km">50 km</option>
+                <option value="100km">100 km</option>
+                <option value="150km">150 km</option>
+                <option value="200km">200 km</option>
+            </select><br><br>
+
+            <label for="experience level">Experience Level</label><br>
+            <select name="experience level" id="experience level">
+                <option value="select">Select</option>
+                <option value="beginner">Beginner</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="advanced">Advanced</option>
+            </select><br><br>
+
+            <button type="submit">Register</button>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
